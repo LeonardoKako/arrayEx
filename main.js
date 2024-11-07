@@ -8,7 +8,7 @@ let alunos = [
 ];
 
 let aprovados = alunos.filter(function(aluno) {
-    return aluno.nota >= 7;
+    return aluno.nota >= 6;
 });
 
 console.log(aprovados);
